@@ -13,7 +13,7 @@ presskit_download_link                    :                                     
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Do Your Civic Duty makes it easier to keep up with Votes, Bills, and Events in the US Congress.
+app_description                           : The app that makes it easy to keep up with Votes, Bills, and Events in the US Congress.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -34,19 +34,19 @@ mastodon_link                             : https://mastodon.social/@m0rgabyte
 
 
 # Feature List                            Edit, add or remove features to be presented.
-# features                                  :
+features                                  :
 
-#   - title                                 : GitHub Pages Jekyll Theme
-#     description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-#     fontawesome_icon_name                 : magic
+  - title                                 : Votes
+    description                           : See recent votes from the Senate and the House of Representatives.
+    fontawesome_icon_name                 : list
     
-#   - title                                 : iPhone Device Preview
-#     description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-#     fontawesome_icon_name                 : mobile
+  - title                                 : Bills
+    description                           : See new bills as they are introduced to congress.
+    fontawesome_icon_name                 : archive
 
-#   - title                                 : Video Support
-#     description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-#     fontawesome_icon_name                 : play-circle
+  - title                                 : Track Members
+    description                           : Filter members of congress by State, Party, and chamber.
+    fontawesome_icon_name                 : users
 
 #   - title                                 : Automatic Icon and Metadata
 #     description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
