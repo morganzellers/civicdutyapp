@@ -13,7 +13,7 @@ presskit_download_link                    :                                     
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : The app that makes it easy to keep up with Votes, Bills, and Events in the US Congress.
+app_description                           : Your ultimate companion for staying informed and engaged with the legislative process. With our powerful app, you can easily track and explore the voting records of members of Congress, follow bills of interest, and gain valuable insights into the decision-making process in Washington, D.C.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -36,7 +36,7 @@ mastodon_link                             : https://mastodon.social/@m0rgabyte
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Votes
+  - title                                 : Stay in the Know
     description                           : See recent votes from the Senate and the House of Representatives.
     fontawesome_icon_name                 : list
     
